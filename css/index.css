@@ -1,0 +1,287 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.header {
+	width: 100%;
+	height: 50px;
+	/* position: fixed; */
+	top: 0px;
+	background-color: #FFFFFF;
+}
+
+.logo-top {
+	height: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.logo-bottom {
+	height: 30px;
+	width: 100%;
+	background-color: #000000;
+	/* margin-top: 15px; */
+	/* font-size: 2px; */
+	color: white;
+
+}
+
+.logo_left {
+	margin-left: 5px;
+	width: 60%;
+	height: 20px;
+	float: left;
+	margin-top: 4px;
+	display: flex;
+	justify-content: flex-start;
+	font-size: 5px;
+	/* background-color: black; */
+}
+
+.logo_right {
+	margin-right: 5px;
+	width: 40%;
+	height: 20px;
+	/* float: right; */
+	display: flex;
+	justify-content: flex-start;
+	font-size: 0.5vw;
+	margin-top: 2px;
+}
+
+.login-handle {
+	margin-right: 5px;
+	margin-left: 5px;
+	text-decoration: none;
+	color: black;
+}
+
+.logo {
+	height: 10px;
+	width: 90px;
+	background: url(../img/global_009.webp) no-repeat 0 -92px;
+	margin-right: 10px;
+	margin-top: 3px;
+}
+
+
+
+.car img {
+	height: 17px;
+	width: 20px;
+	/* margin-top: 1px; */
+}
+
+.logo-car {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo-car div {
+	margin-left: 2px;
+}
+
+.car-num {
+	margin-top: 1px;
+	/* color: #ff0000; */
+}
+.car-num a{
+	text-decoration: none;
+	color: #ff0000;
+}
+
+.link-person {
+	text-decoration: none;
+	color: black
+}
+
+.lining-page-nav {
+	height: 10vw;
+	width: 100%;
+	background-color: #000000;
+	/* margin-top: 5vw; */
+}
+
+.logo-bottom-left {
+
+	display: flex;
+	justify-content: flex-start;
+
+}
+
+/* .logo-bottom-left */
+.logo-bottom-left img {
+	margin-top: 2px;
+	width: 100px;
+	height: 25px;
+}
+
+.type-name {
+
+	font-size: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+/* 轮播图 */
+#box {
+	width: 500px;
+	height: 220px;
+	margin: auto;	
+	overflow: hidden;
+	
+	position: relative;
+}
+#wraps ul{
+	width: 999px;
+	display: flex;
+	justify-content: flex-start;
+	/* width: 100%; */
+	/* height: 100%; */
+	/* display: flex;
+	justify-content: flex-start; */ 
+/* 	display: flex;
+	justify-content:space-between; */
+}
+
+/* #box ul {
+	/* width: 100%;
+	height: 100%; */
+	/* display: flex;
+	justify-content:space-between; */
+	/* text-align: center; */
+/* } */
+
+#box img {
+	/* text-align: center; */
+	/* width: 500px;
+	height: 220px; */
+	width: 100%;
+	height: 100%;
+
+}
+
+ol {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+ol li {
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: white;
+	margin: 0px 4px;
+	cursor: pointer;
+
+}
+
+ol .current {
+	background: #f60;
+}
+
+ol .current:hover {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+span {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background: rgba(150, 150, 150, 0.5);
+	cursor: pointer;
+	color: #fff;
+	padding: 2px 4px;
+}
+
+#left {
+	left: 10px;
+}
+
+#right {
+	right: 10px;
+}
+
+.play {
+	display: none;
+}
+.mxtk{
+	margin-top: 5%;
+	width: 100%;
+	/* height: 300px; */
+	/* text-align: center; */
+	display: flex;
+	flex-wrap: wrap;
+}
+.mxtk img{
+	width: 100%;
+	height: 100%;
+}
+
+.outer{
+	width: 95%;
+	margin: auto;
+	font-size: 5px;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+}
+.btn-list{
+	width: 50px;
+	height: 20px;
+	background-color: #29B4E6;
+	border-radius: 5px;
+}
+.outer .inner .table-lists{
+	display: flex;
+	flex-wrap: wrap;
+}
+.outer .goods{
+	width: 30%;
+	height: 100%;
+	margin-bottom: 10px;
+	position: relative;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+.outer .tab-bsk li{
+	height: 100px;
+	width: 100px;
+}
+.outer .goods img{
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.miaoshu{
+	position: absolute;
+	top: 80px;
+	left: 0px;
+	color: #000000;
+	transform:scale(70%);
+}
+.price{
+	position: absolute;
+	top: 108px;
+	left:14px;
+	transform:scale(80%);
+	color: red;
+}
+.good-buy{
+	position: absolute;
+	top: 110px;
+	right: 12px;
+	font-size: 2px;
+	color: #FFFFFF;
+	text-decoration: none;
+	border-radius: 2px;
+	background-color: #c91212;
+	transform:scale(80%);
+}

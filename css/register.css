@@ -1,0 +1,151 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.header{
+	height: 20px;
+	width: 100%;
+	/* margin-bottom: 5px; */
+	line-height: 20px;
+	/* background-color: red; */
+	
+}
+.header a{
+	text-decoration: none;
+	color: black;
+}
+.header-top{
+	margin-top: 5px;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 12px;
+}
+.background-img{
+	width: 100%;
+	position: relative;
+}
+.background-img img{
+	width: 100%;
+	height: 100%;
+}
+.register{
+	width: 50%;
+	height: 90%;
+	position: absolute;
+	top: 5%;
+	left: 25%;
+	background-color: #fff;
+}
+.contanter{
+	height: 95%;
+	width: 95%;
+	margin: 2.5% 2.5%;
+	/* background-color: #D1D1D1; */
+}
+.nav{
+	height: 10%;
+	width: 100%;
+	/* background-color: red; */
+	display: flex;
+	justify-content: space-between;
+	font-size: 12px;
+}
+.nav a{
+	text-decoration: none;
+	color: red;
+}
+hr{
+	border:0.2px solid #D1D1D1;
+}
+.input-info{
+	height: 50%;
+	width: 100%;
+	/* background-color: #FF6600; */
+}
+.input-info input{
+	width: 100%;
+	height: 4vw;
+	/* transform: scale(50%); */
+	margin-top: 1%;
+	margin-bottom: 3%;
+	position: relative;
+	border-radius: 7px;
+	border:0.5px solid #D1D1D1;
+}
+.input-info button{
+	position: absolute;
+	top: 29%;
+	right: 2%;
+	border: none;
+	border-radius: 6px;
+	color: #ffffff;
+	background-color: #29b4e6;
+	font-size: 12px;
+}
+.register-user{
+	height: 8%;
+	width: 8%;
+	top: 15%;
+	left: 4%;
+	position: absolute;
+}
+.register-code{
+	height: 8%;
+	width: 8%;
+	top: 28%;
+	left: 4%;
+	position: absolute;
+}
+.register-pass{
+	height: 8%;
+	width: 8%;
+	top: 42%;
+	left: 4%;
+	position: absolute;
+}
+.register-pass1{
+	height: 8%;
+	width: 8%;
+	top: 55%;
+	left: 4%;
+	position: absolute;
+}
+.agree{
+	height:30px;
+	width: 100%;
+	font-size: 12px;
+	padding-top: -10px;
+	/* display: flex; */
+	/* flex-wrap: wrap; */
+	/* transform: scale(70%); */
+}
+.agree input{
+	width: 10px;
+	height:10px;
+	background-color: red;
+	/* height: 5px
+	width: 10px; */
+}
+.agree span{
+	color: red;
+}
+.sure{
+	width: 95%;
+	height: 10%;
+	/* color: #FF0000; */
+	background-color: red;
+	margin-top: 10px;
+	position: absolute;
+	bottom: 10px;
+	border-radius: 10px;
+	border: none;
+}
+/* .sure button{
+	
+	width: 100%;
+	border-radius: 5px;
+	color: white
+} */

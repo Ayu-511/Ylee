@@ -1,0 +1,143 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+body{
+	/* background-color: #55ff00; */
+	/* background: url(../img/login/login_bj.jpg); */
+}
+.header{
+	width: 100%;
+	height: 50px;
+	background-color: rgb(255, 0, 0);
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	border: 0.5px solid #DADADA;
+	text-align: center;
+}
+.header p{
+	height: 30px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+/* 头部css结束 */
+.main{
+	width: 95%;
+	margin: auto;
+	height: 100px;
+	margin-top: 60px;
+	/* background-color: red; */
+	display: flex;
+	flex-wrap: wrap;
+}
+.left{
+	height: 350px;
+	width: 49%;
+	margin-right: 1%;
+	background-color: #ffffff;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	border: 0.5px solid #D1D1D1;
+}
+.left-top{
+	width: 100%;
+	height: 200px;
+	border-radius: 20px;
+}
+.left-top img{
+	height: 200px;
+	width: 100%;
+	border-radius: 20px;
+	border: 1px solid #D1D1D1;
+}
+.left-bottom{
+	margin-top: 70px;
+	/* margin-left: 20px; */
+	display: flex;
+	flex-wrap: wrap;
+}
+.left-bottom li{
+	height: 50px;
+	/* background-color: #00FF00; */
+	text-align: center;
+	line-height:50px;
+	color: #D1D1D1;
+}
+.left-bottom img{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	border: 1px solid #969696;
+}
+
+
+.right{
+	width: 49%;
+	height: 350px;
+	background-color: #ffffff;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	border: 0.5px solid #D1D1D1;
+}
+
+
+.right-top{
+	width: 100%;
+	height: 200px;
+	border-radius: 20px;
+}
+.right-top img{
+	height: 200px;
+	width: 100%;
+	border-radius: 20px;
+	border: 1px solid #D1D1D1;
+}
+.right-bottom{
+	margin-top: 70px;
+	/* margin-left: 20px; */
+	display: flex;
+	flex-wrap: wrap;
+}
+.right-bottom li{
+	height: 50px;
+	/* background-color: #00FF00; */
+	text-align: center;
+	line-height:50px;
+	color: #D1D1D1;
+}
+.right-bottom img{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	border: 1px solid #969696;
+}
+
+
+
+
+
+
+/* 底部 */
+.footer{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	bottom: 0px;
+	border: 0.5px solid #DADADA;
+	background: white;
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer li{
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	margin-top: 9px;
+}
+.footer li>img{
+	width: 32px;
+	height: 32px;
+}
+/* 底部结束 */

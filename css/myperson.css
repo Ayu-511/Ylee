@@ -1,0 +1,189 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+body{
+	background: red;
+}
+
+/* body{
+	background-color: #ff5500;
+	background: url(../img/login/login_bj.jpg);
+} */
+.header {
+	width: 100%;
+	height: 50px;
+	background-color: rgb(255, 0, 0);
+	text-align: center;
+
+
+}
+
+.header p {
+	font-size: 20px;
+	color: #fff;
+	padding-top: 12px;
+}
+
+.h1 {
+	height: 200px;
+	width: 100%;
+	background: #ff0000;
+}
+
+.top {
+	width: 95%;
+	height: 100px;
+	margin: auto;
+	/* background: #29B4E6; */
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.person_img {
+	height: 50px;
+	width: 50px;
+	margin-top: 25px;
+	margin-left: 5px;
+	margin-right: 20px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.person_img img {
+	width: 100%;
+	height: 100%;
+}
+
+.p2 {
+	width: 190px;
+	height: 50px;
+	margin-top: 25px;
+	margin-left: 10px;
+	color: #fff;
+	/* background: #00FF00; */
+}
+
+.p2 button {
+	border-radius: 15px;
+	border: none;
+	background: #ffffff;
+	color: red;
+}
+
+.h2 {
+	width: 81px;
+	height: 100px;
+	background: #ff0000;
+}
+
+
+.bottom {
+	width: 95%;
+	height: 100px;
+	margin: auto;
+	/* background: #ffaa7f; */
+}
+.bottom .h3{
+	margin-top: 10px;
+	width: 100%;
+	height: 5px;
+	border-radius: 3px;
+	background: linear-gradient(to right, #ffffff, #000000);
+	
+}
+.h4{
+	display: flex;
+	justify-content: space-between;
+	color: #ececec;
+}
+/* 头部css结束 */
+
+
+.containter{
+	width: 100%;
+	height: 400px;
+	background: #f6f6f6;
+	border-radius: 20px;
+	margin: auto;
+	padding-top: 20px;
+}
+.myorder{	
+	width: 350px;
+	height: 130px;
+	margin: auto;
+	background: #ffffff;
+	border-radius: 15px;
+	padding-top: 10px;
+}
+.order_top{
+	width: 95%;
+	height: 45px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;	
+}
+.order_bottom{
+	width: 95%;
+	height: 90px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;	
+	/* background-color: #00FF00; */
+}
+.order_bottom li{
+	width: 25%;
+	text-align: center;
+}
+
+.h5{
+	
+	height: 80px;
+	width: 95%;
+	margin: auto;
+	background-color: #ffffff;
+	margin-top: 20px;
+	border-radius: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+.h5 li{
+	margin-top: 15px;
+	font-size: 25px;
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.h5 p{
+	font-size: 15px;
+	color: #969696;
+}
+
+
+/* 底部 */
+.footer {
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	bottom: 0px;
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	flex-wrap: wrap;
+	border: 0.5px solid #DADADA;
+	
+}
+
+.footer li {
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	margin-top: 9px;
+}
+
+.footer li>img {
+	width: 32px;
+	height: 32px;
+}
+
+/* 底部结束 */
